@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.green-row {
+  background-color: #d4edda; /* Light green background */
+}
+
+.red-row {
+  background-color: #f8d7da; /* Light red background */
+}
+
+.selected-row {
+  background-color: #cce5ff; /* Light blue background for the selected row */
+}
